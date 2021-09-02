@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APPLICATION FOR DATE</title>
+    <link rel="stylesheet" type="text/css" href="date%20application.css">
+    
+</head>
+<body>
+    <div class="head1"><h1>Dating Application</h1></div>
+    <div class="main">
+        <form><br>
+            <div id="name">
+                <label class="name"><b>Enter Name :-</b></label>&nbsp;
+                <input class="input" type="text" name="Full name" placeholder="Enter Name" required><br><br>
+
+                <label class="name"><b>Enter Email :-</b></label>&nbsp;
+                <input class="input" type="email" name="Email" pattern="email" placeholder="Enter Email" required><br><br>
+
+                <label class="name"><b>Contact Number :</b></label>&nbsp;
+                <select class="option" name="code" required>
+                    <option>+91</option>
+                    <option>+1</option>
+                    <option>+237</option>
+                    <option>+235</option>
+                    <option>+57</option>
+                </select>
+                <input class="input" type="number" name="contactnumber" pattern="[0-9]{10}" placeholder="Enter Phone number" required><br><br>
+
+                <label class="name"><b>Gender :</b></label>&nbsp;
+                <select name="Dropdown">
+                    <option>Male</option>
+                    <option>Female</option>
+                    <option>Other</option>
+                </select><br><br>
+
+                <label class="name"><b>Date of Proposed :</b></label>
+                <input class="input" type="date" name="date" placeholder="Enter Date" required><br><br>
+
+                <label class="name"><b>Check all that apply you :</b></label>
+                <div class="mid">
+                    <label class="name">
+                        <b>I have tattoos and/or piercings :</b>
+                        <input class="radio" type="radio" name="yes" required> Yes
+                        <input class="radio" type="radio" name="yes" > No
+                    </label><br><br>
+
+                    <label class="name">
+                        <b>I am more than 2 years older than my doughter :</b>
+                        <input class="radio" type="radio" name="no" required> Yes
+                        <input class="radio" type="radio" name="no" > No
+                    </label><br><br>
+
+                    <label class="name">
+                        <b>I own a panel van or ferrari :</b>
+                        <input class="radio" type="radio" name="yo" required> Yes
+                        <input class="radio" type="radio" name="yo" > No
+                    </label><br><br>
+                       
+                    <label class="name">
+                        <b>I work full time :</b>
+                        <input class="radio" type="radio" name="noo"> Yes
+                        <input class="radio" type="radio" name="noo" > No
+                    </label><br><br>
+                    
+                    <label class="name"><b>My parents are rich :</b>&nbsp;
+                        <select name="Dropdown">
+                            <option>Rich</option>
+                            <option>Middle-class</option>
+                            <option>Poor</option>
+                        </select>
+                    </label>
+                    <br><br>
+                    
+                    <label class="name"><b>Is the date at private/public location :</b>&nbsp;
+                        <select name="Dropdown" required>
+                            <option>Private</option>
+                            <option>Public</option>
+                        </select>
+                    </label><br><br>
+                    
+                    <label class="name"><b>Education Level Completed :</b></label>
+                    <select name="Dropdown" required>
+                        <option>12th</option>
+                        <option>B.E./B.tech</option>
+                        <option>BSC</option>
+                        <option>MSC</option>
+                        <option>MBA</option>
+                        <option>Farmacy</option>
+                    </select>
+                </div>
+
+                    <label class="name"><b>What do you want to date my doughter ?</b></label><br>
+                    <textarea style="margin-left: 80px;" rows="5" cols="50" name="text" required>  </textarea><br>
+                    
+                    <br>
+                    <label class="name"><b>Plese provide additional contact :</b></label><br>
+                    <textarea style="margin-left: 80px;" rows="2" cols="50" name="text" required>  </textarea><br><br>
+
+                    <label class="name"><b>Upload Bank Document</b></label>
+                    <input class="input" type="file"><br><br>
+
+                    <button type="submit">Submit</button><br>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
